@@ -8,7 +8,7 @@ import requests  # For making API calls to Mistral
 app = FastAPI()  
 
 # Mistral API configuration  
-MISTRAL_API_KEY = "EqY4XkLDoEvrCuBg3DIsLJmTcd069wrT"  # Replace with your actual key  
+MISTRAL_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXX"  # Replace with your actual key  
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"  
 
 class StoryRequest(BaseModel):  
