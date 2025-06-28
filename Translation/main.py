@@ -10,7 +10,7 @@ import os
 app = FastAPI()  
 
 # Mistral API Configuration  
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "EqY4XkLDoEvrCuBg3DIsLJmTcd069wrT")  # Get from environment variable or replace  
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "XXXXXXXXXXXXXXXXXXXXX")  # Get from environment variable or replace  
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"  
 
 # Translation configuration  
