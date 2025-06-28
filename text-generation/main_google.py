@@ -9,7 +9,7 @@ import google.generativeai as genai
 app = FastAPI()
 
 # Set up the generative AI model
-genai.configure(api_key="AIzaSyAOAjnggIYeBjjXL8M-ZyGmMQ-nBVVCDog")  
+genai.configure(api_key="XXXXXXXXXXXXXXXXXXXXXXX")  
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Pydantic model for input validation
